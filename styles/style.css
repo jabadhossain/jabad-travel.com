@@ -1,0 +1,116 @@
+/* Mulish Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 20px auto;
+}
+
+/* Shared style */
+.primary-btn {
+    background-color: #FF5400;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 5px;
+    width: 140px;
+
+}
+
+.banner {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.banner-content {
+    position: absolute;
+    top: 25%;
+    color: #fff;
+}
+
+.banner-title {
+    font-size: 4em;
+    font-weight: 800;
+}
+
+
+.banner-description {
+    margin: 0 200px;
+
+}
+
+.input-field {
+    margin: 0 400px;
+    border-radius: 8px;
+    padding: 5px;
+    color: rgba(19, 19, 24, 0.50);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#where-go {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 140px;
+}
+
+#when {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 140px;
+}
+
+#price {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 140px;
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .banner-content {
+        top: 1%;
+        color: #fff;
+    }
+
+    .banner-title {
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    .banner-description {
+        margin: 0 10px;
+    }
+
+    .input-field {
+        margin: 20px;
+    }
+
+    .banner-img img {
+        height: 500px;
+        width: 100%;
+    }
+
+    #where-go,
+    #when,
+    #price,
+    .primary-btn {
+        width: 85%;
+        padding: 20px;
+    }
+
+
+}
