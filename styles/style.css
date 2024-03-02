@@ -287,7 +287,8 @@ body {
         font-weight: 700;
     }
 
-    .banner-description {
+    .banner-description,
+    .footer-description {
         margin: 0 10px;
     }
 
@@ -353,5 +354,4 @@ body {
     .discount-tag {
         left: 250px;
     }
-
 }
